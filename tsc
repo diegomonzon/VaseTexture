@@ -1,0 +1,43 @@
+
+src/events.ts:3:55 - error TS6133: 'orbitControls' is declared but its value is never read.
+
+3 import { camera, transformControls, rotationControls, orbitControls } from './scene.js';
+                                                        ~~~~~~~~~~~~~
+
+src/events.ts:86:49 - error TS6133: 'updateGeometry' is declared but its value is never read.
+
+86 export function onMouseClick(event: MouseEvent, updateGeometry: () => void, updateGUI: () => void) {
+                                                   ~~~~~~~~~~~~~~
+
+src/events.ts:218:11 - error TS6133: 'savedValues' is declared but its value is never read.
+
+218     const savedValues = {
+              ~~~~~~~~~~~
+
+src/ui.ts:3:74 - error TS6133: 'configureRotationControls' is declared but its value is never read.
+
+3 import { ambientLight, transformControls, rotationControls, axesHelpers, configureRotationControls } from './scene.js';
+                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/ui.ts:4:33 - error TS6133: 'addNewPoint' is declared but its value is never read.
+
+4 import { updatePointVisibility, addNewPoint, removeSelectedPoint, pointLabels, getPointValues, resetPointsToInitialValues, distributePointsEvenly } from './points.js';
+                                  ~~~~~~~~~~~
+
+src/ui.ts:4:80 - error TS6133: 'getPointValues' is declared but its value is never read.
+
+4 import { updatePointVisibility, addNewPoint, removeSelectedPoint, pointLabels, getPointValues, resetPointsToInitialValues, distributePointsEvenly } from './points.js';
+                                                                                 ~~~~~~~~~~~~~~
+
+src/ui.ts:7:1 - error TS6133: 'configureTransformControls' is declared but its value is never read.
+
+7 import { configureTransformControls } from './events.js';
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Found 7 errors in 2 files.
+
+Errors  Files
+     3  src/events.ts:3
+     4  src/ui.ts:3
+ ELIFECYCLE  Command failed with exit code 2.[A

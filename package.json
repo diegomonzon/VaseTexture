@@ -1,0 +1,29 @@
+{
+    "name": "threejs-project",
+    "version": "1.0.0",
+    "description": "A Three.js project",
+    "main": "src/main.ts",
+    "scripts": {
+        "build": "tsc --noEmit && vite build",
+        "dev": "vite",
+        "preview": "vite preview",
+        "type-check": "tsc --noEmit",
+        "lint": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@types/dat.gui": "^0.7.13",
+        "dat.gui": "^0.7.9",
+        "lil-gui": "^0.20.0",
+        "three": "^0.162.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "@types/three": "^0.176.0",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
+        "serve": "^14.2.1",
+        "ts-jest": "^29.3.4",
+        "typescript": "^5.8.3",
+        "vite": "^6.3.5"
+    }
+}
